@@ -18,6 +18,7 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+      
       //add a forward force
        rb.AddForce(0, 0, forwardForce * Time.deltaTime);
 
