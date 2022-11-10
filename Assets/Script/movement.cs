@@ -10,11 +10,6 @@ public class movement : MonoBehaviour
   public float forwardForce = 2000f;
 
   public float sidewaysForce = 500f;
-
-  void Start()
-    {
-    }
-
     // Update is called once per frame
     void FixedUpdate()
     {
