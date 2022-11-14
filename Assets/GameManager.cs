@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     bool gameHasEnded = false;
-    public float restartDelay = 1.5f;
+    public float restartDelay = 1f;
     public GameObject completeLevelUI;
     public void CompleteLevel()
     {
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
 
     void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("Level1");
     }
 
 }
